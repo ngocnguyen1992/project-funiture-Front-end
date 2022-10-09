@@ -8,9 +8,6 @@ main{
     align-items: center; 
 }
 
-/* .carousel-inner .carousel-item{
-    position: absolute;
-} */
 #banner .carousel-inner .carousel-item .carousel-caption{
     padding: 2rem;
     justify-content: flex-end;
