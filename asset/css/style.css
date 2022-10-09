@@ -61,8 +61,7 @@ a {
     background-color: transparent;
     border-width: 0.01rem;
 }
-.container{
-    width: 100%;
+.container-lg{
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -90,9 +89,6 @@ a {
     footer .subcribe-input button{
         padding: 1rem 1.4rem;
     }
-    .container{
-        width: 100%;
-    }
 }
 @media screen and (max-width: 991px){
     #banner-content .sale-banner h4{
@@ -104,9 +100,6 @@ a {
     #banner-content small{
         font-size: 1rem !important;
         right: 31% !important;
-    }
-    .container{
-        width: 100%;
     }
 }
 .app-input {
