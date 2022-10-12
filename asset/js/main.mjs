@@ -21,8 +21,11 @@ function buildProductElement(product) {
     const productPrice = productElement.querySelector('.price');
     productPrice.innerText = product.price;
 
+    const productImage = productElement.querySelector('.product__image > img');
+    productImage.src = product.image;
+
     const productATCBtn = productElement.querySelector('.product__image--cart');
-    console.log(productATCBtn)
+    // console.log(productATCBtn)
     productATCBtn.addEventListener('click', function () {
         addToCart(product)
     })

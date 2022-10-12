@@ -23,7 +23,7 @@ const buildCartProductElement = (product) => {
     const cartProductElement = fragment.querySelector('.cart-product');
 
     const elementName = cartProductElement.querySelector('h4 a');
-    elementName.innerText = product.Name;
+    elementName.innerText = product.name;
 
     const elementPrice = cartProductElement.querySelector('.price');
     elementPrice.innerText = product.price;

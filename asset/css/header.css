@@ -16,9 +16,16 @@
     font-size: 1.7rem;
     color: black;
 }
+.header-nav{
+    position: relative;
+}
 .header-nav .header-nav-right i{
     font-size: 2.2rem;
     padding: 1rem;
+}
+.header-nav-center{
+    position: absolute;
+    left: 45%;
 }
 .header-nav .header-nav-left .call-us{
     font-size: 2rem;
@@ -29,11 +36,37 @@
     padding-right: 2rem;
     font-weight: bold;
 }
+.header-nav-right .header-nav-search{
+    display: none;
+    margin-top: 1rem;
+}
+.header-nav-search.active{
+    display: block!important;
+}
+.header-nav-menu-left .header-nav-menu-links li:hover{
+    color: red;
+    cursor: pointer;
+}
+.header-nav-search .btn-search{
+    color: #1d1e20 !important;
+    border-color: #1d1e20 !important;
+}
+.header-nav-menu-right ul li:hover{
+    color: red;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.header-nav-right i:hover{
+    border-bottom: 1px solid red;
+    transition: 0.5s;
+    color: red;
+}
 .header-nav-menu .header-nav-menu-right ul li{
     font-size: 1.5rem;
     padding-left: 2rem;
     font-weight: bold;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 .header-nav .header-nav-right i{
@@ -197,7 +230,7 @@
 }
 /* responsive */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
     .header-nav-menu .header-nav-menu-left .mobile-menu-btn {
         display: block;
     }
