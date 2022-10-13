@@ -19,6 +19,9 @@
 .header-nav{
     position: relative;
 }
+/* .header-nav .header-nav-right{
+    display: flex-end;
+} */
 .header-nav .header-nav-right i{
     font-size: 2.2rem;
     padding: 1rem;
@@ -227,6 +230,19 @@
 }
 .mobile-menu-container.active {
     display: block !important;
+}
+.mobile-nav ul li:hover{
+    background: white;
+    color: black;
+    transition: 0.5s;
+    border: 0.5px solid white;
+}
+.mobile-menu-close i:hover{
+    background: white;
+    color: black;
+    transition: 0.5s;
+    border: 0.5px solid white;
+    padding: 1rem;
 }
 /* responsive */
 

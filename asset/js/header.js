@@ -9,21 +9,11 @@ cartBtn.click(handleToggleCart)
 
 closeCartBtn.click(handleToggleCart)
 
-cartClose.click(handleToggleCart)
-// closeCartBtn.addEventListener('click', () =>{
-//     cartClose.style.tranform = "translateX(0)";
-//     cartSection.style.transform = "translateX(0)"
-// })
-// cartSection.addEventListener('click', () =>{
-//     cartClose.style.tranform = "translateX(-100%)";
-//     cartSection.style.transform = "translateX(100%)";
-// })
-//animation
-//mobile
+cartClose.click(handleToggleCart);
 
 const mobileMenuBtn = $('.mobile-menu-btn');
 const closeMenuBtn = $('.mobile-menu-close');
-
+const mobileMenuContainer = $('.mobile-menu-container');
 
 function handleToggleMenu(){
     mobileMenuContainer.toggleClass('active');
