@@ -30,6 +30,10 @@
 .products__list .products__list--product .product__image {
     position: relative;
 }
+.products__list .products__list--product .product__image i {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
 .products__list--product .product__image .product__image--view {
     background: black;
     position: absolute;
